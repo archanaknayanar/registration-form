@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="myforms.css">
+<head>
+	<title>Student Registration</title>
+</head>
+<body>
+	<h1>Student Registration</h1>
+	<div class="box">
+	<form action="#" method="POST">
+
+		<table>
+			<tr class="rows">
+				<td><label id="name" class="label">First Name:</label></td>
+				<td><input type="text" name="first_name"></td>
+			</tr>
+			<tr class="rows">
+				<td><label id="lastname" class="label"> Last Name:</label></td>
+				<td><input type="text" name="last_name"></td>
+			</tr>
+			<tr class="rows">
+				<td><label id="age" class="label"> Age:</label></td>
+				<td><input type="number" name="age" min="1" max="100"></td>
+			</tr>
+			<tr class="rows">
+				<td><label id="dob" class="label"> DOB:</label></td>
+				<td><input type="date" name="date"></td>
+			</tr>
+			<tr class="rows">
+				<td><label id="email" class="label"> Email:</label></td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr class="rows">
+				<td><label id="phone" class="label"> Phone Number:</label></td>
+				<td><input type="text" name="phone"></td>
+			</tr>
+			<tr class="rows">
+				<td><label id="address" class="label"> Address:</label></td>
+				<td><input type="text" name="address"></td>
+			</tr>
+			<tr class="rows">
+				<td><label id="city" class="label"> City:</label></td>
+				<td><input type="text" name="city"></td>
+			</tr>
+			<tr class="rows">
+				<td><label id="state" class="label"> State:</label></td>
+				<td>
+					
+
+					<select id="state" class="dropdown">
+					<option disabled value>Select</option>
+					<option value="Alabama">AL</option>
+					<option value="Newyork">NY</option>
+					<option value="South Caroline">SC</option>
+					<option value="Nevada">ND</option>
+					<option value="San Francisco">SF</option>
+					<option value="New Jersy">NJ</option>
+					<option value="Washington">DC</option>
+					</select>
+					
+
+			</tr>
+			<tr class="rows">
+				<td><label id="skills" class="label"> Please select the skills you have in the following:</label></td>
+				<td>
+					<ul style="list-style: none;">
+					<li class="checkbox"><input type="checkbox" value="Python" name="skill">Python</li></br>
+					<li class="checkbox"><input type="checkbox" value="Ruby" name="skill">Ruby</li></br>
+					<li class="checkbox"><input type="checkbox" value="HTML5" name="skill">HTML5</li></br>
+					<li class="checkbox"><input type="checkbox" value="Golang" name="skill">Golang</li></br>
+					<li class="checkbox"><input type="checkbox" value="JS" name="skill">JS</li></br>
+				</ul>
+
+
+				</td>
+			</tr>
+			<!-- <tr class="rows">
+				<div class="button">
+					<td><input type="reset" name="reset"></td>
+					<td><input type="submit" name="submit"></td>
+				</div>
+			</tr> -->
+			
+		</table>
+			<button id="submit" type="submit">Submit</button>
+	</form>
+</div>
+
+</body>
+</html>
